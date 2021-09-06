@@ -44,16 +44,31 @@ p{text-align:justify}
 .part1L ul li:hover{ background:#000}
 .part1L ul li:hover a{}
 
-.part1R{ float:right;width: 911px;height: 546px; }
-.part1R ul{ overflow:hidden}
-.part1R ul li{ float:left; width:284px; overflow:hidden; margin-right:29px; margin-bottom:10px;}
-.part1R ul li .probox{_display:table;display:table-cell;text-align:center;width:280px; height:190px; border:1px solid #ddd; padding:1px;vertical-align:middle}
-.part1R ul li .probox img{max-height:190px; max-width:280px;}
-.part1R ul li p{ text-align:center; padding:0 20px; height:40px; line-height:40px;font-size: 16px; color:#5a5a5a}
-.part1R ul li:nth-child(3n){ margin-right:0}
-.part1R ul li:hover .probox{ border:1px solid #006BC3}
-.part1R ul li:hover p{ color:#006BC3}
+.titbox.newTitle{
+    background:#147AC1; height:100%; overflow:hidden;margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.titbox.newTitle p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.4;
+    color: #fff;
+}
+.titbox.newTitle span{
+    text-align:center; color:#fff;font-size: 12px; text-transform:uppercase; line-height:1.4
+}
 
+.part1R{ float:left;width: 1200px;height: 546px; }
+.part1R ul{ overflow:hidden}
+.part1R ul li{ float:left; width:300px; overflow:hidden; margin-bottom:10px;}
+.part1R ul li .probox{_display:table;display:table-cell;text-align:center;width:300px; height:190px;  padding:1px;vertical-align:middle}
+.part1R ul li .probox img{max-height:190px; max-width:280px;border-radius: 5px;}
+.part1R ul li p{ text-align:center; padding:0 20px; height:40px; font-size: 16px; color:#5a5a5a;white-space: pre-wrap;}
+.part1R ul li:nth-child(3n){ margin-right:0}
+.part1R ul li:hover .probox{ }
+.part1R ul li:hover p{ color:#006BC3}
 
 .part2{width:100%; min-width:1200px; height:496px; overflow:hidden; background:url(../images/bg.jpg) no-repeat center center;margin-bottom: 60px;}
 .part2 .p2L{ float:left; width:550px; height:460px; overflow:hidden; margin-top:35px}
