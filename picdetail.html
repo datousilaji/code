@@ -10,6 +10,14 @@
 <meta name="renderer" content="webkit"/>
 <meta name="force-rendering" content="webkit"/>
 <link type="text/css" rel="stylesheet" href="css/style.css" />
+<style>
+  .detailbox .xq .imgList .imgStyle{
+    width: 500px;
+    height: 500px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+</style>
 <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
 <script type="text/javascript" src="js/banner.js"></script>
 <script>
@@ -33,7 +41,7 @@
   <a href="index.html"><img src="images/logo.png" /></a>
 </div>
 <div class="clear"></div>
-<div class="nav">
+<!-- <div class="nav">
   <div class="main">
     <ul>
       <li><a href="index.html">首页</a></li>
@@ -45,7 +53,7 @@
       <li><a href="contact.html">联系我们</a></li>
     </ul>
   </div>
-</div>
+</div> -->
 <div class="clear"></div>
 <div class="banner">
   <div class="b-img">
@@ -61,27 +69,137 @@
     <div class="con ccsl">当前所在页面：网站首页 >> 产品中心</div>
   </div>
   <div class="detailbox">
-    <div class="xq">
-      <h1>不锈钢小插销防盗门插销</h1>
-      <div class="date">来源:|作者:****|发布时间: 2018-10-13|203 次浏览</div>
-      <div class="kuang"></div>
-      <img src="images/2.jpg" class="prroimg"/>
-      <div class="con">
-        <p>在卫浴间里面也会用到些五金的产品，这些五金的产品在卫浴间里面也得到了积极的用处，而卫浴间是比较潮湿的，五金长期接触到它们是容易损坏，卫浴五金怎么保养?在购买卫浴五金的时候，可以见到各种各样的五金产品，卫浴五金怎么挑选?</p>
-        <p>一、卫浴五金怎么保养</p>
-        <p>1、建议定期用清水或性质温和的清洁剂清洁产品表面，然后用柔软的毛巾抹干，它的外观也能一直保持光鲜亮丽的状态，切勿使用以盐或醋为基底的清洁剂。</p>
-        <p>2、避免硬物划伤产品表面，切勿使用粗糙布料抹擦，建议使用法贝卫浴专用保养抹布进行清洁。</p>
-        <p>3、切勿与有机溶液及腐蚀性化学物品接触以及在有上述物质的气体环境中使用以免被破坏表面镀层光洁度。</p>
-        <p>4、本产品适宜在装修工程全部竣工后安装，以免产品碰伤与腐蚀。</p>
-        <p>二、卫浴五金怎么挑选</p>
-        <p>卫浴五金配件无需购买进口产品</p>
-        <p>很多人购买卫浴五金配件的时候，都喜欢追求进口产品，其实在国内购买进口产品实在没有必要，毕竟这些进口的卫浴大部分是国内生产制作。由于中国产品的品质和价格优势，目前国际上很多卫浴五金品牌都把产品放到中国来贴牌生产，而中国卫浴五金的生产品质也越来越高，所以在购买卫浴配件的时候，只要用心逛，就一定能选到外形美观、品质优越的国产货的，价格一定也比进口产品便宜一大截。</p>
-        <p>选择双把、单把龙头有诀窍</p>
-        <p>谈到双把龙头要做一些说明，很多人反对使用双把龙头，其实是以为其把手像以前的旋转把手一样需要旋转很多圈才能完全开关，其实现在的双把龙头的把手，都只用做90度旋转就能完全打开或者完全关闭，用起来也非常的方便。</p>
-        <p>而龙头选择双把还是单把，我觉得是和使用的地方有关系的。厨房龙头选择单把的比较合适，而且最好选择龙头把手较长的，因为在厨房，我们坚持手里拿着别的东西，或者手上是油乎乎的，这个时候用手背就能开关的龙头就显得方便很多.</p>
-        <p>淋浴龙头，如果家中使用的是燃气热水器，双把龙头的就非常和使用，虽然现在燃气热水器很多都是恒温的，但由于家中每个人的身体感受不一样，所以使用时还是要用龙头混水来进行温度的微调的。普通单把龙头，在调节的时候，是热水管和冷水管的水量一起变化，不好掌握，而使用双把龙头就方便很多，只要先把热水龙头开到最大，然后再把冷水龙头开到合适的量就ok了，而且对于一些不带低压启动的热水器，由于热水管的水量一直是开到最大，所以不会产生在调节水温的时候热水器灭火的现象。</p>
-        <p>卫浴五金怎么保养?在使用卫浴五金的时候，就要有意识的做好保养工作，比如使用的时候小心一点，不要用太大力。卫浴五金怎么挑选?可以从品牌、价格、款式设计、选材等等多方面来挑选卫浴五金，保证它在卫浴间能用好、用对。</p>
+    <div class="xq" >
+      <h1 id="title"></h1>
+      <div class="date">来源:邢台惠捷超硬材料|发布时间: 2018-10-20|903 次浏览</div>
+      <div id="pic" class="kuang"></div>
+      <!-- <img src="images/2.jpg" class="prroimg"/> -->
+      <div id="content" class="imgList"></div>
+      <div id="des" class="con">
       </div>
+      <div class="buttonContent">
+        <p class="backButton">
+          <a href="piclist.html">返回产品列表</a>
+        </p>
+      </div>  
+      <script>
+        function getQueryVariable(variable)
+        {
+              var query = window.location.search.substring(1);
+              var vars = query.split("&");
+              for (var i=0;i<vars.length;i++) {
+                      var pair = vars[i].split("=");
+                      if(pair[0] == variable){return pair[1];}
+              }
+              return(false);
+        }
+        var detailList = {
+          '1':{
+            title:"金地供应金刚石砂轮 硬质合金 CBN砂轮磨刀机砂轮",
+            picList:['1.1','1.2','1.3','1.4'],
+            des:"修整滚轮是用于机械加工中大批量成型磨削的高精度、高效率、长寿命、低成本的成型砂轮修整工具。一般用于砂轮的修整和超硬材料的磨削。其特点是将需要多次磨加工的工序合为一次加工，改善加工工件的线型度，可大大提高产品质量和提高生产效率。目前我公司生产的修整滚轮按加工方式分为电镀滚轮和烧结滚轮。"
+          },
+          '2':{
+            title:"金钢石砂轮 金刚石打磨砂轮片 树脂金刚石平形砂轮",
+            picList:['2.1','2.2','2.3','2.4'],
+            des:"电镀滚轮是利用电镀原理先在基体上镀层镍，然后在电流的作用下将磨料(金刚石或CBN)吸附在基体表面。",
+            des1:"烧结滚轮一般是由基体、磨料层(又叫金层)和过渡层(又叫非层)组成。基体是磨料的载体，磨料层直接作用在工件上，起磨削作用，是滚轮重要的组成部分;过渡层是连接基体和磨料的桥梁，它主要保证磨料的粘接强度，非层是几种金属粉末，通过加压加热，将基体和磨料融合在一起。"
+          },
+          '3':{
+            title:"陶瓷结合剂CBN砂轮",
+            picList:['3.1','3.2','3.3','3.4','3.5','3.6'],
+            des:"陶瓷结合剂CBN砂轮用来研磨汽车引擎的主要零件──凸轮轴凸轮（叶形轮、偏心轮）。针对冷凝凸轮、钢制凸轮、烧结凸轮等各式各样的材质设计出适合的规格。再者，由于采用高速磨削，所以对于结合剂、粘结剂、基体（合金）材质等的品质及安全性特别注重。"
+          },
+          '6':{
+            title:"CBN砂轮用修整滚轮砂轮 平面磨CBN砂轮",
+            picList:['6.1','6.2','6.3','6.4','6.5'],
+            des:"普通研磨盘与陶瓷结合剂研磨盘对比",
+            des1:"近些年，陶瓷结合剂研磨盘因其精度高、加工效率高、使用寿命长，在高硬材料的平面磨削中应用越来越广泛。如高速钢、合金铸铁、耐磨铸铁、20CrMo、20CrMnTi、Cr12MOV等。爱磨仕超硬砂轮厂家专注于陶瓷结合剂砂轮的研制，主营多种规格型号的平面磨砂轮、外圆磨砂轮、内圆磨砂轮。产品适用于高速钢、高锰钢、高合金钢、各类淬硬钢等高硬度难加工材料的磨削加工，广泛应用于机械制造、齿轮、轴承、轧辊、模具、液压、压缩机等加工领域。"
+          },
+          '7':{
+            title:"陶瓷CBN砂轮 磨削汽车凸轮轴立方氮化硼砂轮",
+            picList:['7.1','7.2','7.3'],
+            des:"1.磨削效率高，同时砂轮消耗相对较慢；",
+            des1:"2.自锐性好，磨削时发热量小，不易堵塞，减少了磨削时出现工件烧伤的现象；",
+            des2:"3.砂轮具有一定的弹性，有利于改善工件表面的粗糙度，主要用于精磨、半精磨、刀磨、抛光等工序；",
+            des3:"4.树脂结合剂金刚石砂轮是低温固化，生产周期短，设备和供应流程比较简单；因树脂具有流动性，容易成型复杂性面的砂轮。",
+          },
+          '8':{
+            title:"陶瓷金刚石砂轮 耐磨磁性材质 陶瓷磨轮",
+            picList:['8.1','8.2','8.3','8.4'],
+            des:""
+          },
+          '9':{
+            title:"金刚石磨刀轮 树脂金钢石碟形砂轮",
+            picList:['9.1','9.2','9.3','9.4'],
+            des:""
+          },
+          '10':{
+            title:"350-40-127-10金刚石砂轮350-40-127-10金刚石砂轮",
+            picList:['10.1','10.2','10.3','10.4','10.5'],
+            des:""
+          },
+          '11':{
+            title:"金刚石树脂砂轮磨石材(喷涂光洁度好、生产周期短)平行异形砂轮",
+            picList:['11.1','11.2','11.3','11.4','11.5'],
+            des:""
+          },
+          '12':{
+            title:"树脂金刚石平行砂轮 平面金刚石砂轮片",
+            picList:['12.1','12.2','12.3','12.4','12.5'],
+            des:""
+          },
+          '13':{
+            title:"金刚石树脂砂轮磨石材喷涂(自锐性好)杯型碗型砂轮",
+            picList:['13.1','13.2','13.3','13.4'],
+            des:""
+          },
+          '14':{
+            title:"高品质金刚石砂轮片",
+            picList:['14.1','14.2','14.3','14.4','14.5'],
+            des:""
+          },
+          '15':{
+            title:"金刚石砂轮磨削陶瓷 碳化钨喷涂 轧辊",
+            picList:['15.1','15.2','15.3'],
+            des:""
+          },
+          '16':{
+            title:"金刚石砂轮磨半导体材料(自锐性)好平行异形砂轮",
+            picList:['16.1','16.2','16.3','16.4'],
+            des:""
+          },
+          '17':{
+            title:"金刚石树脂砂轮",
+            picList:['17.1','17.2','17.3','17.4','17.5'],
+            des:""
+          }
+        }
+        function getEle(id){
+          return document.getElementById(id);
+        }
+        var obj = getQueryVariable("index");
+        var title = getEle('title');
+        var des = getEle('des');
+        var content = getEle('content');
+        //标题
+        title.innerHTML = detailList[obj].title;
+        //图片
+        for(let i in detailList[obj].picList){
+          let img = document.createElement('img');
+          img.className = "prroimg imgStyle";
+          img.src = "images/detail/1."+obj+"/"+detailList[obj].picList[i]+".jpg";
+          content.appendChild(img);
+        }
+        //描述
+        for(let i in detailList[obj]){
+          if(i.indexOf('des')>-1&&detailList[obj][i]){
+            let p = document.createElement('p');
+            p.innerHTML=detailList[obj][i];
+            des.appendChild(p);
+          }
+        }
+      </script>
     </div>
   </div>
 </div>
